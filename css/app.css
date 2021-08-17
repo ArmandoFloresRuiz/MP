@@ -1,0 +1,66 @@
+#titulo {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(72, 255, 0);
+}
+
+
+#registro, /*se pone gato para cuando es un Id en el html y cuando es punto es para las clases */
+#principal,
+#camara{
+    display: none;
+}
+
+.errorCampo{
+    border-color:yellow;
+    border-width: 4px;
+}
+
+
+.menu{
+    width:0%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+.botonCerrar{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: rgb(173,173,255);
+    text-decoration: none;    
+}
+.opciones{
+    text-decoration: none;
+    color: rgb(173,173,255);
+    padding-left: 20px;
+}
+.opciones:visited{
+    color: rgb(173,173,255);
+}
+#redactar
+{
+display:none;
+visibility: hidden;
+}
+.inputget{
+    display:none;
+}
+.container-photo{
+    background-color:rgba(137, 43, 226, 0.521);
+    margin-bottom: 3px;
+    text-align:center;
+}
+.photo{
+    height: 200px;
+    object-fit:cover;
+}
