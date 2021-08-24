@@ -336,13 +336,14 @@ function obtenerLugar() {
             coordenadas={lat:0, lon:0 };
         });
     });
-    if ('serviceWorker' in navigator){
-        window.addEventListener('load',() => {
-            navigator.serviceWorker.register('../sw.js').then( () => {
-                console.log('Service Worker Registered')
-            })
+    
+}
+if ('serviceWorker' in navigator){
+    window.addEventListener('load',() => {
+        navigator.serviceWorker.register('../sw.js').then( () => {
+            console.log('Service Worker Registered')
         })
-    }
+    })
 }
 
 
